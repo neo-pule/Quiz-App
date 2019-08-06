@@ -1,0 +1,373 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>cat1</ion-title>
+  </ion-toolbar>
+</ion-header>
+ 
+ <ion-content  padding class="background">
+    
+          <ion-header padding>
+            
+              <ion-icon name="hourglass" color="medium" style="zoom: 5.00;"></ion-icon>
+              <ion-title>K53 LEARNERS </ion-title> <ion-label class="head">{{displayTime1}}&nbsp;</ion-label>
+          </ion-header>
+
+
+ <!-- <ion-slides>
+    <ion-slide>
+    <!-- <ion-card>
+
+        
+            <ion-card-header>
+                <p>Question 1</p>
+              <ion-card-subtitle>K53 Driving School Quiz</ion-card-subtitle>
+              <ion-card-title>A vehicle of which the brakes are not good, must be towed:</ion-card-title>
+              
+            </ion-card-header>
+          
+            <ion-card-content>
+              
+              
+  <ion-radio-group>
+      <ion-list>
+    <ion-list-header>
+      Auto Manufacturers
+    </ion-list-header>
+
+    <ion-item>
+      <ion-label>Cord</ion-label>
+      <ion-radio value="cord"></ion-radio>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>Duesenberg</ion-label>
+      <ion-radio value="duesenberg"></ion-radio>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>Hudson</ion-label>
+      <ion-radio value="hudson"></ion-radio>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>Packard</ion-label>
+      <ion-radio value="packard"></ion-radio>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>Studebaker</ion-label>
+      <ion-radio value="studebaker"></ion-radio>
+    </ion-item>
+  </ion-list>
+  </ion-radio-group>
+    </ion-card-content>          
+  
+
+    <ion-card>
+     <ion-card-header>
+          <p>Question 1</p>
+        <ion-card-subtitle>K53 Driving School Quiz</ion-card-subtitle>
+        <ion-card-title>A vehicle of which the brakes are not good, must be towed:</ion-card-title>
+        
+      </ion-card-header>
+    
+      <ion-card-content>   
+        
+      <ion-radio-group>
+          <ion-list> 
+                 <ion-item> 
+                <ion-label>150m </ion-label>
+                <ion-radio slot="end"   [(ngModel)]="ans1" >option1</ion-radio>
+              </ion-item> 
+              
+              <ion-item>
+                  <ion-label>100m</ion-label>
+                  <ion-radio slot="end"  [(ngModel)]="ans2"  value="100m" >option1</ion-radio>
+                </ion-item>
+  
+                <ion-item>
+                    <ion-label>45m</ion-label>
+                    <ion-radio slot="end"  [(ngModel)]="ans3" value="45m">option1</ion-radio>
+                  </ion-item>     
+                  <ion-item>
+                    <ion-label>60m</ion-label>
+                    <ion-radio slot="end"  [(ngModel)]="ans4"  value="45m">option1</ion-radio>
+                  </ion-item> 
+                </ion-list>
+              </ion-radio-group>
+            </ion-card-content>         
+    </ion-card>
+  
+
+  </ion-slide>
+  <ion-slide>
+   
+  <ion-radio-group>
+    <ion-card>
+        <ion-card-header>
+            <p>Question 2</p>
+          <ion-card-subtitle>K53 Driving School Quiz</ion-card-subtitle>
+          <ion-card-title>A vehicle of which the brakes are not good, must be towed:</ion-card-title>
+          
+        </ion-card-header>
+      
+        <ion-card-content>
+          
+        <ion-radio-group>
+            <ion-list>
+                  <ion-item> 
+                  <ion-label>With a rope </ion-label>
+                  <ion-radio slot="end"   [(ngModel)]="ans5" >option1</ion-radio>
+                </ion-item>
+                
+                <ion-item>
+                    <ion-label>On a trailer</ion-label>
+                    <ion-radio slot="end"  [(ngModel)]="ans6"  value="100m" >option1</ion-radio>
+                  </ion-item>
+    
+                  <ion-item>
+                      <ion-label>With a tow-bar</ion-label>
+                      <ion-radio slot="end"  [(ngModel)]="ans7"  value="45m">option1</ion-radio>
+                    </ion-item>   
+                    <ion-item>
+                      <ion-label>With a wire</ion-label>
+                      <ion-radio slot="end"  [(ngModel)]="ans8"  value="45m">option1</ion-radio>
+                    </ion-item>   
+                  </ion-list>
+                </ion-radio-group>  
+              </ion-card-content>
+      </ion-card>
+    </ion-slide>
+    <ion-slide>  
+      <ion-card>
+          <ion-card-header>
+              <p>Question 3</p>
+            <ion-card-subtitle>K53 Driving School Quiz</ion-card-subtitle>
+            <ion-card-title>Unless otherwise shown by a sign, the general speed limit in a town or city is ?</ion-card-title>
+            
+          </ion-card-header>
+        
+          <ion-card-content>
+            
+          <ion-radio-group>
+              <ion-list>
+                    <ion-item> 
+                    <ion-label>60Km </ion-label>
+                    <ion-radio slot="end"   [(ngModel)]="ans9" >option1</ion-radio>
+                  </ion-item>
+                  
+                  <ion-item>
+                      <ion-label>100Km</ion-label>
+                      <ion-radio slot="end"  [(ngModel)]="ans10"  value="100m" >option1</ion-radio>
+                    </ion-item>
+      
+                    <ion-item>
+                        <ion-label>80Km</ion-label>
+                        <ion-radio slot="end"  [(ngModel)]="ans11"  value="45m">option1</ion-radio>
+                      </ion-item>  
+                      <ion-item>
+                        <ion-label>120Km</ion-label>
+                        <ion-radio slot="end"  [(ngModel)]="ans12"  value="45m">option1</ion-radio>
+                      </ion-item>       
+                    </ion-list>
+                  </ion-radio-group>
+                </ion-card-content>  
+        </ion-card> 
+        </ion-slide> 
+
+      </ion-slides> 
+    -->
+  <!-- <ion-button  (click)="Next()">Try </ion-button> -->
+  <ion-slides #firstSlider pager="true"  >
+      
+    <ion-slide>
+          <ion-progress-bar value="0.2" buffer="0.2"></ion-progress-bar>
+      <ion-card>
+        <ion-card-header>
+            <h1>Question 1 </h1>
+          
+          <ion-card-title>You may cross or enter a public road:</ion-card-title>
+          
+        </ion-card-header>
+      
+        <ion-card-content>
+          
+            <ion-radio-group [(ngModel)]="ans1">
+                <ion-list>
+                 <ion-item > 
+                  <ion-label text-wrap><b>if the road is clear of traffic for a short distance</b> </ion-label>
+                  <ion-radio  slot="start"  value="If the road is clear of traffic for a short distance" ></ion-radio>
+                </ion-item>
+                
+                <ion-item>
+                    <ion-label text-wrap><b>in any manner as long as you use your indicator in time</b></ion-label>
+                    <ion-radio slot="start"   value="in any manner as long as you use your indicator in time" ></ion-radio>
+                  </ion-item>
+    
+                  <ion-item>
+                      <ion-label text-wrap><b>if  the road if clear of traffic for a long distance and can be done without obstructing traffic
+                        </b> </ion-label>
+                      <ion-radio  slot="start"  value="if  the road if clear of traffic for a long distance and can be done without obstructing traffic"></ion-radio>
+                   </ion-item>  
+  
+                
+                  </ion-list>
+                </ion-radio-group>
+              </ion-card-content>         
+      </ion-card>
+      
+    </ion-slide>
+    <ion-slide>
+        <ion-progress-bar value="0.4" buffer="0.2"></ion-progress-bar>
+      <ion-card>
+          <ion-card-header>
+              <h1>Question 2 </h1>
+            
+            <ion-card-title>A vehicle of which the brakes are not good, must be towed:</ion-card-title>
+            
+          </ion-card-header>
+        
+          <ion-card-content>
+              <ion-radio-group [(ngModel)]="ans2">
+                  <ion-list>
+                    <ion-item> 
+                    <ion-label ><b>With a rope </b></ion-label>
+                    <ion-radio slot="start"  value="With a rope "  >option1</ion-radio>
+                  </ion-item>
+                  
+                  <ion-item>
+                      <ion-label><b>On a trailer</b></ion-label>
+                      <ion-radio slot="start"   value="On a trailer" ></ion-radio>
+                    </ion-item>
+      
+                    <ion-item>
+                        <ion-label><b>With a tow-bar</b></ion-label>
+                        <ion-radio slot="start"  value="With a tow-bar"></ion-radio>
+                      </ion-item>   
+                      <ion-item>
+                        <ion-label><b>With a wire</b></ion-label>
+                        <ion-radio slot="start"   value="With a wire"></ion-radio>
+                      </ion-item>     
+                    </ion-list>
+                  </ion-radio-group>   
+                </ion-card-content>
+      
+        </ion-card>
+      </ion-slide>
+      <ion-slide padding>
+          <ion-progress-bar value="0.6" buffer="0.6"></ion-progress-bar>
+        <ion-card padding>
+            <ion-card-header>
+                <h1>Question 3</h1>
+              
+              <ion-card-title>Unless otherwise shown by a sign, the general speed limit in a town or city is ?</ion-card-title>
+              
+            </ion-card-header>
+          
+            <ion-card-content>
+  
+                <ion-radio-group [(ngModel)]="ans3">
+                    <ion-list>
+       
+                      <ion-item> 
+                      <ion-label><b>60Km </b></ion-label>
+                      <ion-radio slot="start" value="60Km"  ></ion-radio>
+                    </ion-item>
+                    
+                    <ion-item>
+                        <ion-label><b>100Km</b></ion-label>
+                        <ion-radio slot="start"    value="100Km" ></ion-radio>
+                      </ion-item>
+        
+                      <ion-item>
+                          <ion-label><b>80Km</b></ion-label>
+                          <ion-radio slot="start"   value="80Km"></ion-radio>
+                        </ion-item>  
+                        <ion-item>
+                          <ion-label><b>120Km</b></ion-label>
+                          <ion-radio slot="start"    value="120Km"></ion-radio>
+                        </ion-item>  
+                      </ion-list>
+                    </ion-radio-group>        
+                  </ion-card-content>  
+          </ion-card>
+          </ion-slide>
+  
+          <ion-slide>
+              <ion-progress-bar value="0.8" buffer="0.2"></ion-progress-bar>
+              <ion-card>
+                  <ion-card-header>
+                      <h1>Question 4 </h1>
+                   
+                    <ion-card-title>If you come across an emergency vehicle on the road sounding a siren, you must:</ion-card-title>
+                    
+                  </ion-card-header>
+                
+                  <ion-card-content>
+        
+                      <ion-radio-group [(ngModel)]="ans4">
+                          <ion-list>
+             
+                            <ion-item> 
+                            <ion-label text-wrap><b>Flash your headlights to warn other traffic </b></ion-label>
+                            <ion-radio slot="start" value="Flash your headlights to warn other traffic"  ></ion-radio>
+                          </ion-item>
+                          
+                          <ion-item>
+                              <ion-label text-wrap><b>Switch on your vehicles emergency lights and blow your hooter</b></ion-label>
+                              <ion-radio slot="start"    value="Switch on your vehicles emergency lights and blow your hooter" ></ion-radio>
+                            </ion-item>
+              
+                            <ion-item>
+                                <ion-label text-wrap><b>Give right of way to the emergency vehicle</b></ion-label>
+                                <ion-radio slot="start"   value="Give right of way to the emergency vehicle"></ion-radio>
+                              </ion-item>  
+                               
+                            </ion-list>
+                          </ion-radio-group>        
+                        </ion-card-content>  
+                </ion-card>
+                </ion-slide>
+  
+  
+                <ion-slide>
+                    <ion-progress-bar value="1.0" type="indeterminate" color="secondary" ></ion-progress-bar>
+                    <ion-card>
+                        <ion-card-header>
+                            <h1>Question 5 </h1>
+                          
+                          <ion-card-title>You may not drive into an intersection when:</ion-card-title>
+                          
+                        </ion-card-header>
+                      
+                        <ion-card-content>
+              
+                            <ion-radio-group [(ngModel)]="ans5">
+                                <ion-list>
+                   
+                                  <ion-item> 
+                                  <ion-label text-wrap><b>There is not enough space in the intersection to turn right without blocking other traffic</b></ion-label>
+                                  <ion-radio slot="start" value="there is not enough space in the intersection to turn right without blocking other traffic"  ></ion-radio>
+                                </ion-item>
+                                
+                                <ion-item>
+                                    <ion-label text-wrap><b>The robot (traffic signal) is yellow and you are already in the intersection</b></ion-label>
+                                    <ion-radio slot="start"    value="the robot (traffic signal) is yellow and you are already in the intersection" ></ion-radio>
+                                  </ion-item>
+                    
+                                  <ion-item>
+                                      <ion-label text-wrap><b>The vehicle in front of you wants to turn right and the road is wide enough to pass on the left-hand side</b></ion-label>
+                                      <ion-radio slot="start"   value="The vehicle in front of you wants to turn right and the road is wide enough to pass on the left-hand side"></ion-radio>
+                                    </ion-item>  
+                                     
+                                  </ion-list>
+                                </ion-radio-group>        
+                              </ion-card-content>  
+                      </ion-card>
+                      <ion-button (click)="getInfo()">NEXT!</ion-button>
+                      </ion-slide>
+        </ion-slides> 
+       
+        
+   
+</ion-content>

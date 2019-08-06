@@ -1,0 +1,216 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>cat3</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding class="background">
+
+    <ion-header padding>
+     
+        <ion-icon name="hourglass" color="medium" style="zoom: 5.00;"></ion-icon> <ion-title>Africa</ion-title> <ion-label class="head">{{displayTime}}&nbsp;</ion-label>
+    </ion-header>
+
+  <ion-slides >
+    <ion-slide>
+        <ion-progress-bar value="0.2"  buffer="0.2"></ion-progress-bar>
+    <ion-card>
+      <ion-card-header>
+        <h1>Question 1 </h1>
+        
+        <ion-card-title>On the border of which two countries is Victoria Falls?</ion-card-title>
+        
+      </ion-card-header>
+    
+      <ion-card-content>
+          <ion-radio-group  [(ngModel)]="ans11">
+              <ion-list>
+  
+                <ion-item> 
+                <ion-label><b>Namibia and Zambia</b></ion-label>
+                <ion-radio slot="start"  value="Namibia and Zambia"  >option1</ion-radio>
+              </ion-item>
+              
+              <ion-item>
+                  <ion-label><b>Zambia and Botswana</b></ion-label>
+                  <ion-radio slot="start"  value="Zambia and Botswana" ></ion-radio>
+                </ion-item>
+                
+                <ion-item>
+                    <ion-label><b>Zimbabwe and Angola</b></ion-label>
+                    <ion-radio slot="start"   value="Zimbabwe and Angola">option1</ion-radio>
+                  </ion-item> 
+                  
+                  <ion-item>
+                    <ion-label><b>Zambia and Zimbabwe</b></ion-label>
+                    <ion-radio slot="start"  value="Zambia and Zimbabwe">option1</ion-radio>
+                  </ion-item> 
+                  </ion-list>
+                  </ion-radio-group>
+            </ion-card-content>         
+    </ion-card>
+  </ion-slide>
+
+  <ion-slide>
+      <ion-progress-bar value="0.4" buffer="0.4"></ion-progress-bar>
+    <ion-card>
+      <ion-card-header>
+          <h1>Question 2 </h1>
+        
+        <ion-card-title> How many countries are in Africa today?</ion-card-title>
+        
+      </ion-card-header>
+    
+      <ion-card-content>
+          <ion-radio-group  [(ngModel)]="ans12">
+              <ion-list>
+  
+                <ion-item> 
+                <ion-label><b> 60 </b></ion-label>
+                <ion-radio slot="start"   value="60"   ></ion-radio>
+              </ion-item>
+              
+              <ion-item>
+                  <ion-label><b> 50</b></ion-label>
+                  <ion-radio slot="start"   value="50" ></ion-radio>
+                </ion-item>
+                
+                <ion-item>
+                    <ion-label><b> 55</b></ion-label>
+                    <ion-radio slot="start"    value="55"></ion-radio>
+                  </ion-item> 
+                  
+                  <ion-item>
+                    <ion-label><b> 54</b></ion-label>
+                    <ion-radio slot="start" value="54"></ion-radio>
+                  </ion-item> 
+                  </ion-list>
+                  </ion-radio-group>
+            </ion-card-content>         
+    </ion-card>
+  </ion-slide>
+
+  <ion-slide>
+      <ion-progress-bar value="0.6"   buffer="0.6"></ion-progress-bar>
+    <ion-card>
+      <ion-card-header>
+          <h1>Question 3 </h1>
+        
+        <ion-card-title> What is the largest countries in Africa?</ion-card-title>
+        
+      </ion-card-header>
+    
+      <ion-card-content>
+          <ion-radio-group  [(ngModel)]="ans13">
+              <ion-list>
+  
+                <ion-item> 
+                <ion-label><b>Sudan</b></ion-label>
+                <ion-radio slot="start"     value="Sudan"></ion-radio>
+              </ion-item>
+              
+              <ion-item>
+                  <ion-label><b>Libya</b></ion-label>
+                  <ion-radio slot="start"   value="Libya" ></ion-radio>
+                </ion-item>
+                
+                <ion-item>
+                    <ion-label text-wrap><b>The Democratic Republic Of The Congo</b></ion-label>
+                    <ion-radio slot="start"   value="The Democratic Republic Of The Congo"></ion-radio>
+                  </ion-item> 
+                  
+                  <ion-item>
+                    <ion-label><b>Algeria</b></ion-label>
+                    <ion-radio slot="start"  value="Algeria"></ion-radio>
+                  </ion-item> 
+
+                  </ion-list>
+                  </ion-radio-group>
+            </ion-card-content>         
+    </ion-card>
+  </ion-slide>
+
+  <ion-slide>
+      <ion-progress-bar value="0.8"  buffer="0.8"></ion-progress-bar>
+    <ion-card>
+      <ion-card-header>
+          <h1>Question 4 </h1>
+        
+        <ion-card-title>What is the Richest African Country in 2019?</ion-card-title>
+        
+      </ion-card-header>
+    
+      <ion-card-content>
+          <ion-radio-group  [(ngModel)]="ans14">
+              <ion-list>
+  
+                <ion-item> 
+                <ion-label><b>South Africa</b></ion-label>
+                <ion-radio slot="start" value="South Africa" ></ion-radio>
+              </ion-item>
+              
+              <ion-item>
+                  <ion-label><b>Mauritius</b></ion-label>
+                  <ion-radio slot="start"   value="Mauritius" ></ion-radio>
+                </ion-item>
+                
+                <ion-item>
+                    <ion-label><b>Equatorial Guinea</b></ion-label>
+                    <ion-radio slot="start"   value="Equatorial Guinea"></ion-radio>
+                  </ion-item> 
+                  
+                  <ion-item>
+                    <ion-label><b>Gabon</b></ion-label>
+                    <ion-radio slot="start"  value="Gabon"></ion-radio>
+                  </ion-item> 
+                  </ion-list>
+                  </ion-radio-group>
+            </ion-card-content>         
+    </ion-card>
+  </ion-slide>
+
+  <ion-slide>
+      <ion-progress-bar value="1.0" type="indeterminate" color="secondary" buffer="1.0"></ion-progress-bar>
+    <ion-card>
+      <ion-card-header>
+          <h1>Question 5 </h1>
+      
+        <ion-card-title>What is the smallest countries in Africa?</ion-card-title>
+        
+      </ion-card-header>
+    
+      <ion-card-content>
+          <ion-radio-group  [(ngModel)]="ans15">
+              <ion-list>
+  
+                <ion-item> 
+                <ion-label><b>Swaziland</b></ion-label>
+                <ion-radio slot="start"  value="Swaziland"  ></ion-radio>
+              </ion-item>
+              
+              <ion-item>
+                  <ion-label><b>Gambia</b> </ion-label>
+                  <ion-radio slot="start"  value="Gambia" ></ion-radio>
+                </ion-item>
+                
+                <ion-item>
+                    <ion-label><b>Burundi</b></ion-label>
+                    <ion-radio slot="start"   value="Burundi"></ion-radio>
+                  </ion-item> 
+                  
+                  <ion-item>
+                    <ion-label><b>Rwanda</b></ion-label>
+                    <ion-radio slot="start"   value="Rwanda"></ion-radio>
+                  </ion-item> 
+                  </ion-list>
+                  </ion-radio-group>
+            </ion-card-content>         
+    </ion-card>
+    <ion-button (click)="getInfo()">GO!</ion-button>
+  
+  </ion-slide>
+
+  
+  </ion-slides>
+  
+</ion-content>

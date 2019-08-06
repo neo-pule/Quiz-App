@@ -1,0 +1,181 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>result</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding class="background" align="center">
+<h1><b>User Answers to the Quiz</b></h1>
+<ion-icon name="stopwatch" color="secondary" style="zoom: 5.00;"></ion-icon>
+<hr>
+<h3><b>K53 Driving School Quiz</b></h3>
+
+ <div *ngIf="ans1 == 'If the road is clear of traffic for a short distance';else other1">
+    <p>  Question 1 : {{ans1}}   <ion-icon name="checkmark" color="success" style="zoom: 3.00;"></ion-icon></p>
+</div>
+<ng-template #other1>
+    <p>  Question 1 : {{ans1}}   <ion-icon name="close" color="danger" style="zoom: 3.00;"></ion-icon></p>
+</ng-template>  
+<div *ngIf="ans2 == 'With a tow-bar';else content1">
+    <p>Question 2 : {{ans2}} <ion-icon name="checkmark" color="success" style="zoom: 3.00;"></ion-icon></p>
+</div>
+<ng-template #content1>
+    <p>Question 2 : {{ans2}} <ion-icon name="close" color="danger" style="zoom: 3.00;"></ion-icon></p>
+</ng-template> 
+<div *ngIf="ans3 == '60Km';else other2">
+    <p>Question 3 : {{ans3}}<ion-icon name="checkmark" color="success" style="zoom: 3.00;"></ion-icon></p>
+</div>
+<ng-template other2>
+    <p>Question 3 : {{ans3}}  <ion-icon name="close" color="danger" style="zoom: 3.00;"></ion-icon>
+</ng-template> 
+
+<div *ngIf="ans4 == 'Give right of way to the emergency vehicle';else content4">
+    <p>Question 4 : {{ans4}} <ion-icon name="checkmark" color="success" style="zoom: 3.00;"></ion-icon></p>
+</div>
+<ng-template #content4>
+    <p>Question 4 : {{ans4}} <ion-icon name="close" color="danger" style="zoom: 3.00;"></ion-icon></p>
+</ng-template> 
+
+
+<div *ngIf="ans5 == 'The vehicle in front of you wants to turn right and the road is wide enough to pass on the left-hand side';else content5">
+    <p>Question 5 : {{ans5}} <ion-icon name="checkmark" color="success" style="zoom: 3.00;"></ion-icon></p>
+</div>
+<ng-template #content5>
+    <p>Question 5 : {{ans5}} <ion-icon name="close" color="danger" style="zoom: 3.00;"></ion-icon></p>
+</ng-template>
+<!-- <div *ngIf="ans5 == 'The vehicle in front of you wants to turn right and the road is wide enough to pass on the left-hand side';else other_content">
+    <p>Question 5 : {{ans5}}</p> <ion-icon name="checkmark" color="success" style="zoom: 5.00;"></ion-icon>
+</div>
+<ng-template #other_content>
+    <p>Question 5 : {{ans5}}</p> <ion-icon name="close" color="danger" style="zoom: 5.00;"></ion-icon>
+</ng-template>  -->
+
+
+<h3><b>South Africa General Stuff Quiz</b></h3>
+
+
+<div *ngIf="an6 == 'Big Five Animals';else other_content5">
+    <p>Question 6 : {{ans6}} <ion-icon name="checkmark" color="success" style="zoom: 3.00;"></ion-icon></p>
+</div>
+<ng-template #other_content5>
+    <p>Question 6 : {{ans6}} <ion-icon name="close" color="danger" style="zoom: 3.00;"></ion-icon></p>
+</ng-template>
+
+<div *ngIf="ans7 == 'Springbok';else other_content4">
+    <p>Question 7 : {{ans7}} <ion-icon name="checkmark" color="success" style="zoom: 3.00;"></ion-icon></p>
+</div>
+<ng-template #other_content4>
+    <p>Question 7 : {{ans7}} <ion-icon name="close" color="danger" style="zoom: 3.00;"></ion-icon></p>
+</ng-template>
+
+<div *ngIf="ans8 == '5';else other_content3">
+    <p>Question 8 : {{ans8}} <ion-icon name="checkmark" color="success" style="zoom: 3.00;"></ion-icon></p>
+</div>
+<ng-template #other_content3>
+    <p>Question 8 : {{ans8}} <ion-icon name="close" color="danger" style="zoom: 3.00;"></ion-icon></p>
+</ng-template>
+<div *ngIf="ans9 == 'OR Tambo International Airport';else other_content2">
+    <p>Question 9 : {{ans9}} <ion-icon name="checkmark" color="success" style="zoom: 3.00;"></ion-icon></p>
+</div>
+<ng-template #other_content2>
+    <p>Question 9 : {{ans9}} <ion-icon name="close" color="danger" style="zoom: 3.00;"></ion-icon></p>
+</ng-template>
+
+<div *ngIf="ans10 == '4';else other_content0">
+    <p>Question 10 : {{ans10}} <ion-icon name="checkmark" color="success" style="zoom: 3.00;"></ion-icon></p>
+</div>
+<ng-template #other_content0>
+    <p>Question 10 : {{ans10}} <ion-icon name="close" color="danger" style="zoom: 3.00;"></ion-icon></p>
+</ng-template>
+
+<h3><b>Africa General Stuff Quiz</b></h3>
+
+<hr>
+
+
+<div *ngIf="ans11 == 'Zambia and Zimbabwe';else other_content1">
+    <p>Question 11 : {{ans11}} <ion-icon name="checkmark" color="success" style="zoom: 3.00;"></ion-icon></p>
+</div>
+<ng-template #other_content1>
+    <p>Question 11 : {{ans11}} <ion-icon name="close" color="danger" style="zoom: 3.00;"></ion-icon></p>
+</ng-template>
+
+
+<div *ngIf="ans12 == '54';else hii">
+    <p>Question 12 : {{ans12}} <ion-icon name="checkmark" color="success" style="zoom: 3.00;"></ion-icon></p>
+</div>
+<ng-template #hii>
+    <p>Question 12 : {{ans12}} <ion-icon name="close" color="danger" style="zoom: 3.00;"></ion-icon></p>
+</ng-template>
+
+
+<div *ngIf="ans13 == 'Algeria';else today">
+    <p>Question 13 : {{ans13}} <ion-icon name="checkmark" color="success" style="zoom: 3.00;"></ion-icon></p>
+</div>
+<ng-template #today>
+    <p>Question 13 : {{ans13}} <ion-icon name="close" color="danger" style="zoom: 3.00;"></ion-icon></p>
+</ng-template>
+
+
+<div *ngIf="ans14 == 'Equatorial Guinea';else other">
+    <p>Question 14 : {{ans14}} <ion-icon name="checkmark" color="success" style="zoom: 3.00;"></ion-icon></p>
+</div>
+<ng-template #other>
+    <p>Question 14 : {{ans14}} <ion-icon name="close" color="danger" style="zoom: 3.00;"></ion-icon></p>
+</ng-template>
+
+
+<div *ngIf="ans15 == 'Gambia';else content">
+    <p>Question 15 : {{ans15}} <ion-icon name="checkmark" color="success" style="zoom: 3.00;"></ion-icon></p>
+</div>
+<ng-template #content>
+    <p>Question 15 : {{ans15}} <ion-icon name="close" color="danger" style="zoom: 3.00;"></ion-icon></p>
+</ng-template>
+
+<ion-item>
+ 
+    <p>{{progess1}}</p>
+
+<div *ngIf="total == 15;">
+   
+    <ion-label>
+        {{progess1}}
+  <ion-progress-bar value="{{progress}}" type="indeterminate" color="secondary" buffer="{{progress}}"></ion-progress-bar>
+  </ion-label>
+  <span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked" ></span>
+<span class="fa fa-star checked"></span>
+  </div>
+
+  <div *ngIf="total >= 8;else tota">
+   
+      <ion-label>
+          {{progess1}}
+    <ion-progress-bar value="{{progress}}"  color="secondary" buffer="{{progress}}"></ion-progress-bar>
+    </ion-label>
+    <span class="fa fa-star checked"></span>
+    <span class="fa fa-star checked"></span>
+    <span class="fa fa-star checked"></span>
+    <span class="fa fa-star " ></span>
+    <span class="fa fa-star "></span>
+    </div>
+  <ng-template #tota>
+      <ion-label>
+          {{progess1}}
+    <ion-progress-bar value="{{progress}}" color="primary" buffer="{{progress}}"></ion-progress-bar>
+    </ion-label>
+  </ng-template>
+
+
+</ion-item>
+
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
+<ion-button (click)="Submit()">GO!</ion-button>
+<h2>Total :{{total}}</h2>
+</ion-content>

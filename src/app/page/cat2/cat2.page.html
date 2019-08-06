@@ -1,0 +1,219 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>cat2</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content  padding class="background">
+ 
+     
+        <ion-header padding>
+          
+            <ion-icon name="hourglass" color="medium" style="zoom: 5.00;"></ion-icon><ion-title>South Africa</ion-title> 
+      <ion-label class="head">      {{displayTime}}
+            &nbsp;</ion-label>
+          </ion-header>
+
+
+    <ion-slides >
+       
+      <ion-slide>
+          <ion-progress-bar value="0.2"   buffer="0.2"></ion-progress-bar>
+      <ion-card>
+        <ion-card-header>
+            <h1>Question 1 </h1>
+          
+          <ion-card-title>What is reflected on the currency notes?</ion-card-title>
+          
+        </ion-card-header>
+      
+        <ion-card-content>
+          
+        <ion-radio-group  [(ngModel)]="ans6">
+            <ion-list>
+                  <ion-item> 
+                  <ion-label text-wrap>South African National Symbols </ion-label>
+                  <ion-radio slot="start"  value="South African National Symbols" >option1</ion-radio>
+                </ion-item>
+                
+                <ion-item>
+                    <ion-label>Big Five Animals</ion-label>
+                    <ion-radio slot="start"    value="Big Five Animals" >option1</ion-radio>
+                  </ion-item>
+                  
+                  <ion-item>
+                      <ion-label>South African Monuments</ion-label>
+                      <ion-radio slot="start"  value="South African Monuments">option1</ion-radio>
+                    </ion-item> 
+                    
+                    <ion-item>
+                      <ion-label text-wrap>Sub Saharan Indigenous People</ion-label>
+                      <ion-radio slot="start" value="Sub Saharan Indigenous People">option1</ion-radio>
+                    </ion-item> 
+                  </ion-list>
+                  </ion-radio-group>
+                       
+              </ion-card-content>         
+      </ion-card>
+    </ion-slide>
+    <ion-slide>
+        <ion-progress-bar value="0.4"   buffer="0.4"></ion-progress-bar>
+      <ion-card>
+          <ion-card-header>
+              <h1>Question 2 </h1>
+            
+            <ion-card-title>What is the national animal of South Africa?</ion-card-title>
+            
+          </ion-card-header>
+        
+          <ion-card-content>
+              <ion-radio-group  [(ngModel)]="ans7">
+                  <ion-list>
+                    <ion-item> 
+                    <ion-label>Rhinoceros </ion-label>
+                    <ion-radio slot="start" value="Rhinoceros"  >option1</ion-radio>
+                  </ion-item>
+                  
+                  <ion-item>
+                      <ion-label>Lion</ion-label>
+                      <ion-radio slot="start"   value="Lion" >option1</ion-radio>
+                    </ion-item>
+      
+                    <ion-item>
+                        <ion-label>Springbok</ion-label>
+                        <ion-radio slot="start"    value="Springbok">option1</ion-radio>
+                      </ion-item>    
+                      
+                      <ion-item>
+                        <ion-label>Elephant</ion-label>
+                        <ion-radio slot="start"    value="Elephant">option1</ion-radio>
+                      </ion-item> 
+                    </ion-list>
+                    </ion-radio-group>
+                </ion-card-content>
+      
+        </ion-card>
+      </ion-slide>
+      <ion-slide>
+          <ion-progress-bar value="0.6"   buffer="0.6"></ion-progress-bar>
+        <ion-card>
+            <ion-card-header>
+                <h1>Question 3 </h1>
+             
+              <ion-card-title>How many languages are there in the South African national anthem?</ion-card-title>
+              
+            </ion-card-header>
+          
+            <ion-card-content>
+                <ion-radio-group  [(ngModel)]="ans8">
+                    <ion-list>
+       
+                      <ion-item> 
+                      <ion-label>1 </ion-label>
+                      <ion-radio slot="start" value="1"   ></ion-radio>
+                    </ion-item>
+                    
+                    <ion-item>
+                        <ion-label>2</ion-label>
+                        <ion-radio slot="start"  value="2" ></ion-radio>
+                      </ion-item>
+        
+                      <ion-item>
+                          <ion-label>5</ion-label>
+                          <ion-radio slot="start" value="5"   ></ion-radio>
+                        </ion-item>  
+                        
+                        <ion-item>
+                          <ion-label>4</ion-label>
+                          <ion-radio slot="start"    value="4"></ion-radio>
+                        </ion-item>
+                        </ion-list>
+                        </ion-radio-group>
+                  </ion-card-content>  
+          </ion-card>
+          </ion-slide>
+          <ion-slide>
+              <ion-progress-bar value="0.8"   buffer="0.8"></ion-progress-bar>
+            <ion-card>
+                <ion-card-header>
+                    <h1>Question 4 </h1>
+                  
+                  <ion-card-title>What is South Africa's largest airport?</ion-card-title>
+                  
+                </ion-card-header>
+              
+                <ion-card-content>
+                    <ion-radio-group  [(ngModel)]="ans9">
+                        <ion-list>
+                          <ion-item> 
+                          <ion-label text-wrap>Mandela International Airport </ion-label>
+                          <ion-radio slot="start"  value="Mandela International Airport" ></ion-radio>
+                        </ion-item>
+                        
+                        
+            
+                          <ion-item>
+                              <ion-label text-wrap>Johannesburg International Airport</ion-label>
+                              <ion-radio slot="start"  value="Johannesburg International Airport"></ion-radio>
+                            </ion-item>    
+                            
+                            <ion-item>
+                              <ion-label text-wrap>OR Tambo International Airport</ion-label>
+                              <ion-radio slot="start" value="OR Tambo International Airport"></ion-radio>
+                            </ion-item>
+                            <ion-item>
+                                <ion-label >Mkambati International Airport</ion-label>
+                                <ion-radio slot="start"    value="Mkambati International Airport" ></ion-radio>
+                              </ion-item>
+                          </ion-list>
+                        </ion-radio-group> 
+                      </ion-card-content>
+                   
+            
+              </ion-card>
+            </ion-slide>
+            <ion-slide>
+                <ion-progress-bar value="1.0"  type="indeterminate" color="secondary"  buffer="1.0"></ion-progress-bar>
+              <ion-card>
+                  <ion-card-header>
+                      <h1>Question 5 </h1>
+                 
+                    <ion-card-title>How many black presidents have there been in South Africa?</ion-card-title>
+                    
+                  </ion-card-header>
+                
+                  <ion-card-content>
+                      <ion-radio-group  [(ngModel)]="ans10">
+                          <ion-list>
+
+                            <ion-item> 
+                            <ion-label> 1 </ion-label>
+                            <ion-radio slot="start" value="1"   ></ion-radio>
+                          </ion-item>
+                          
+                          <ion-item>
+                              <ion-label> 2</ion-label>
+                              <ion-radio slot="start"    value="2" ></ion-radio>
+                            </ion-item>
+              
+                            <ion-item>
+                                <ion-label> 3</ion-label>
+                                <ion-radio slot="start"   value="3"></ion-radio>
+                              </ion-item>    
+                              
+                              <ion-item>
+                                <ion-label> 4</ion-label>
+                                <ion-radio slot="start"    color="secondary" value="4"></ion-radio>
+                              </ion-item> 
+
+                              </ion-list>
+                              </ion-radio-group>
+                        </ion-card-content>
+              
+                </ion-card>
+                <ion-button (click)="getInfo()">GO!</ion-button>
+              </ion-slide>
+        </ion-slides>
+       
+</ion-content>
+
