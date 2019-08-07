@@ -122,6 +122,8 @@ this.progress1 = this.progress *100;
   }
   ngOnInit() {
 
+
+    
     this.addr.queryParams.subscribe(data => {
       console.log(data)
 
